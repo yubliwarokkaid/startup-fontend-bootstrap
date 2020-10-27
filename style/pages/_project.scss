@@ -1,0 +1,29 @@
+.page-project {
+  .leader {
+    margin-top: 50px;
+  }
+
+  .card-project {
+    border-radius: 25px;
+    border: 1px solid #acacac;
+
+    .body-project {
+      img {
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .card-leader {
+    border-radius: 25px;
+    border: 1px solid #acacac;
+
+    .body-leader {
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+      }
+    }
+  }
+}

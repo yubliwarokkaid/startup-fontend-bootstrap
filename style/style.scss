@@ -1,0 +1,12 @@
+@import "../assets/scss/bootstrap.scss";
+
+@import "global";
+@import "fonts";
+@import "navbar";
+
+@import "components/hero";
+@import "components/call-to-action";
+@import "components/footer";
+
+@import "pages/landing";
+@import "pages/project";

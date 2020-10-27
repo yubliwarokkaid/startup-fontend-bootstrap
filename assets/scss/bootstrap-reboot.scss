@@ -1,0 +1,14 @@
+/*!
+ * Template Name: Bootstartup
+ * About The Author: Yubli Audy Warokka (https://yubliwarokka.web.id/)
+ * Copyright 2020 Code Seribu (https://codeseribu.com/)
+ * Copyright 2011-2020 Twitter, Inc.
+ */
+
+@import "functions";
+@import "variables";
+// Prevent the usage of custom properties since we don't add them to `:root` in reboot
+$font-family-base: $font-family-sans-serif; // stylelint-disable-line scss/dollar-variable-default
+$font-family-code: $font-family-monospace; // stylelint-disable-line scss/dollar-variable-default
+@import "mixins";
+@import "reboot";
