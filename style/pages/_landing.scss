@@ -27,7 +27,7 @@ p {
   min-width: 235px;
   padding: 10px;
   border-radius: 50px;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in;
 
   &:hover {
     background-color: #1abc9c;
@@ -51,10 +51,12 @@ p {
 
   .step-one {
     margin-top: 40px;
+    margin-bottom: 100px;
   }
 
   .step-two {
     margin-top: -50px;
+    margin-bottom: 100px;
   }
 
   .step-three {
@@ -220,7 +222,7 @@ p {
   .testimonial-user.active {
     opacity: 1;
     border: 5px solid #fff;
-    box-shadow: 0 0 0 1px #3b41e3;
+    box-shadow: 0 0 0 1px #0066ff;
   }
 }
 
@@ -232,7 +234,7 @@ p {
   background-image: url("/assets/images/auth-background.svg");
   background-position: top right;
   background-repeat: no-repeat;
-  background-color: #3b41e3;
+  background-color: #0066ff;
   // transform: skewY(4deg);
   transform-origin: top left;
 }
@@ -266,7 +268,7 @@ p {
 }
 
 .footer-startup {
-  background-color: #3b41e3;
+  background-color: #0066ff;
   padding-bottom: 50px;
   padding-top: 50px;
   width: 100%;
