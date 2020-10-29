@@ -25,7 +25,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" href="/">Home</a>
             </li>
@@ -49,7 +49,12 @@
     <!-- End Header -->
 
     <!-- BG Header -->
-    <div class="hero"></div>
+    <div class="hero">
+      <video autoplay muted loop>
+        <source src="/assets/images/video-2.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
 
     <section class="page-hero">
       <div class="container">
@@ -92,10 +97,15 @@
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-lg-8 d-none d-lg-block">
+            <div class="col-lg-10">
+              <img src="/assets/images/on-progress.svg" alt="" class="w-100" />
+            </div>
+          </div>
+          <!-- <div class="row justify-content-center">
+            <div class="col-lg-9 d-none d-lg-block">
               <div class="line-step">
                 <img
-                  src="/assets/images/line-step-2.svg"
+                  src="/assets/images/step.svg"
                   alt="line-step"
                   class="w-100"
                 />
@@ -136,7 +146,7 @@
                 <p>Time to makes dream comes true</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
@@ -170,7 +180,7 @@
                   </p>
                   <div class="progress">
                     <div
-                      class="progress-bar progress-bar-striped"
+                      class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style="width: 20%"
                       aria-valuenow="20"
@@ -204,7 +214,7 @@
                   </p>
                   <div class="progress">
                     <div
-                      class="progress-bar progress-bar-striped"
+                      class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style="width: 45%"
                       aria-valuenow="45"
@@ -236,7 +246,7 @@
                   <p class="card-text">The new era of mechanical keyboard</p>
                   <div class="progress">
                     <div
-                      class="progress-bar progress-bar-striped"
+                      class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style="width: 80%"
                       aria-valuenow="80"
@@ -268,7 +278,7 @@
                   <p class="card-text">Just pair to phone and ready to set</p>
                   <div class="progress">
                     <div
-                      class="progress-bar progress-bar-striped"
+                      class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style="width: 45%"
                       aria-valuenow="45"
@@ -300,7 +310,7 @@
                   <p class="card-text">Make the room keep warm automatically</p>
                   <div class="progress">
                     <div
-                      class="progress-bar progress-bar-striped"
+                      class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style="width: 70%"
                       aria-valuenow="70"
@@ -334,7 +344,7 @@
                   </p>
                   <div class="progress">
                     <div
-                      class="progress-bar progress-bar-striped"
+                      class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style="width: 10%"
                       aria-valuenow="10"
@@ -359,6 +369,7 @@
       </section>
 
       <section class="testimonial">
+        <div class="testimonial-overlay"></div>
         <div class="container">
           <div class="row title-testimoni">
             <div class="col lg-3 text-center text-md-center text-lg-left">
@@ -413,73 +424,74 @@
     </div>
     <!-- End Page Content -->
 
-    <div class="cta-clip"></div>
-    <section class="call-to-action">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-12">
-            <h1 class="text-white">
-              Easy way to funding
-              <br />
-              best idea and innovation
-            </h1>
-            <button class="btn btn-cta px-5 py-3">Getting Start</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer-startup">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-lg-5 mb-5 text-center text-sm-center text-md-center text-lg-left"
-          >
-            <div class="logo-footer">
-              <img
-                src="/assets/images/logo-footer.svg"
-                alt="logo-footer"
-                class="w-50"
-              />
-              <p>Helps people execute their <br />bright ideas</p>
+    <div class="footer-cta">
+      <section class="call-to-action">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-12">
+              <h1>
+                Easy way to funding
+                <br />
+                best idea and innovation
+              </h1>
+              <button class="btn btn-cta px-5 py-3">Getting Start</button>
             </div>
           </div>
-          <div
-            class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
-          >
-            <h5>Office</h5>
-            <ul class="list-unstyled">
-              <li><a href="#">Our Services</a></li>
-              <li><a href="#">Equity System</a></li>
-              <li><a href="">Refund</a></li>
-              <li><a href="">Shareholder</a></li>
-            </ul>
-          </div>
-          <div
-            class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
-          >
-            <h5>Investor</h5>
-            <ul class="list-unstyled">
-              <li><a href="">My Account</a></li>
-              <li><a href="">Top Startups</a></li>
-              <li><a href="">How-to Tutorials</a></li>
-              <li><a href="">Withdrawl</a></li>
-            </ul>
-          </div>
-          <div
-            class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
-          >
-            <h5>Explore</h5>
-            <ul class="list-unstyled">
-              <li>+021 2208 1996</li>
-              <li>KBP, Bandung</li>
-              <li>No.12 (Backer)</li>
-              <li><a href="">support@backer.id</a></li>
-            </ul>
+        </div>
+      </section>
+
+      <footer class="footer-startup">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-5 mb-5 text-center text-sm-center text-md-center text-lg-left"
+            >
+              <div class="logo-footer">
+                <img
+                  src="/assets/images/logo-footer.svg"
+                  alt="logo-footer"
+                  class="w-50"
+                />
+                <p>Helps people execute their <br />bright ideas</p>
+              </div>
+            </div>
+            <div
+              class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
+            >
+              <h5>Office</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Equity System</a></li>
+                <li><a href="">Refund</a></li>
+                <li><a href="">Shareholder</a></li>
+              </ul>
+            </div>
+            <div
+              class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
+            >
+              <h5>Investor</h5>
+              <ul class="list-unstyled">
+                <li><a href="">My Account</a></li>
+                <li><a href="">Top Startups</a></li>
+                <li><a href="">How-to Tutorials</a></li>
+                <li><a href="">Withdraw</a></li>
+              </ul>
+            </div>
+            <div
+              class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
+            >
+              <h5>Explore</h5>
+              <ul class="list-unstyled">
+                <li>+021 2208 1996</li>
+                <li>KBP, Bandung</li>
+                <li>No.12 (Backer)</li>
+                <li><a href="">support@backer.id</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
   </body>
