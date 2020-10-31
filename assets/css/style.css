@@ -11335,31 +11335,157 @@ p {
           box-shadow: 0 0 0 1px #cfa519;
 }
 
-.page-detail {
+.project-container {
   padding-top: 50px;
 }
 
-.page-project .leader {
-  margin-top: 50px;
+.project-container .card-image-project {
+  border-radius: 20px;
+  border: 1px solid #cbd5e0;
 }
 
-.page-project .card-project {
+.project-container .card-image-project img {
   border-radius: 25px;
-  border: 1px solid #acacac;
+  padding: 10px;
 }
 
-.page-project .card-project .body-project img {
+.project-container .card-leader {
+  border-radius: 20px;
+  border: 1px solid #cbd5e0;
+}
+
+.project-container .card-leader .body-leader h1, .project-container .card-leader .body-leader .h1 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.project-container .card-leader .body-leader .title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #2d3748;
+}
+
+.project-container .card-leader .body-leader .subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: #cbd5e0;
+}
+
+.project-container h2, .project-container .h2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+
+.project-container .list-check li {
+  background: url("/assets/images/icon-checklist.svg") no-repeat left 8px;
+  padding: 6px 0px 3px 28px;
+}
+
+.project-container input.form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 50px;
+}
+
+.project-container input.form-control::-webkit-input-placeholder {
+  color: #cbd5e0;
+}
+
+.project-container input.form-control:-ms-input-placeholder {
+  color: #cbd5e0;
+}
+
+.project-container input.form-control::-ms-input-placeholder {
+  color: #cbd5e0;
+}
+
+.project-container input.form-control::placeholder {
+  color: #cbd5e0;
+}
+
+.project-container input.form-control {
+  border-radius: 50px;
+  border: 1px solid #cbd5e0;
+}
+
+.project-container .btn-fund-now {
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #fea929;
+  color: #fff;
+  padding: 12px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 50px;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.project-container .btn-fund-now:hover {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.project-container .card-thumb-project {
+  border-radius: 20px;
+  border: 1px solid #cbd5e0;
+}
+
+.project-container .item-thumbnail img {
+  padding: 8px;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.project-container .item-thumbnail:hover {
+  background-color: #ff872e;
   border-radius: 20px;
 }
 
-.page-project .card-leader {
-  border-radius: 25px;
-  border: 1px solid #acacac;
+.project-container .item-thumbnail:hover:after {
+  position: absolute;
+  top: 38%;
+  left: 41%;
+  content: url("/assets/images/icon-thumbnail-hover.svg");
 }
 
-.page-project .card-leader .body-leader p {
+.project-container .item-thumbnail:hover img {
+  opacity: 0.3;
+}
+
+.project-container .detail-descreiption {
+  margin-bottom: 250px;
+}
+
+.project-container .detail-descreiption h2, .project-container .detail-descreiption .h2 {
+  font-weight: 500;
+  font-size: 36px;
+  color: #1a202c;
+}
+
+.project-container .detail-descreiption h3, .project-container .detail-descreiption .h3 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.project-container .detail-descreiption .progress {
+  border-radius: 50px;
+  height: 23px;
+}
+
+.project-container .detail-descreiption .progress-detail .percent-detail {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.project-container .detail-descreiption .progress-detail .price-detail {
+  font-weight: 600;
+  font-size: 24px;
   color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
