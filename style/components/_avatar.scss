@@ -1,0 +1,33 @@
+.btn-sign-up {
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #fea929;
+  color: #ffffff;
+  border-radius: 50px;
+  box-shadow: none;
+  padding: 12px;
+  transition: all 0.5s ease-in;
+
+  &:hover {
+    background-color: #1abc9c;
+    color: #fff;
+  }
+}
+
+.btn-skip {
+  background-color: #fff9f0;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #bbbbbb;
+  border-radius: 50px;
+  box-shadow: none;
+  border: 1px solid #cbd5e0;
+  padding: 12px;
+  transition: all 0.5s ease-in;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #838383;
+  }
+}

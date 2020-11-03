@@ -25,10 +25,25 @@
   left: 0;
   background-color: black;
   z-index: 999999;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .bg-detail {
+  background-image: url("/assets/images/header-detail.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -999999;
+}
+
+.bg-dashbaard {
   background-image: url("/assets/images/header-detail.svg");
   background-position: center;
   background-repeat: no-repeat;

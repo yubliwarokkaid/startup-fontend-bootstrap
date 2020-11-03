@@ -1,0 +1,124 @@
+/* --------------------------------------
+2.BACKGROUND IMAGE
+-------------------------------------- */
+.image-container {
+  background: url("/assets/images/bg-register-auth.svg") center no-repeat; /*change background image here*/
+  background-size: cover;
+  height: 100vh;
+}
+/* --------------------------------------
+3.FORM SECTION
+-------------------------------------- */
+.form-container {
+  background-image: linear-gradient(
+    to top,
+    #edf6ff,
+    #ecfafd,
+    #f0fcf9,
+    #f8fdf7,
+    #fffef8
+  );
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.form-box .form-input {
+  position: relative;
+}
+.form-box .form-input input {
+  width: 100%;
+  height: 55px;
+  margin-bottom: 25px;
+  border: 1px solid #76acd8;
+  border-radius: 50px;
+  outline: none;
+  background: white;
+  padding-left: 20px;
+}
+
+.form-box .form-input label {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.form-box .form-input input::placeholder {
+  padding-left: 0px;
+}
+.form-box .form-input input:focus,
+.form-box .form-input input:valid {
+  border-bottom: 2px solid #1abc9c;
+}
+
+.btn-next-auth {
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #fea929;
+  color: #ffffff;
+  border-radius: 50px;
+  box-shadow: none;
+  padding: 15px;
+  transition: all 0.5s ease-in;
+
+  &:hover {
+    background-color: #1abc9c;
+    color: #fff;
+  }
+}
+/* --------------------------------------
+4.RESET PASSWORD
+-------------------------------------- */
+.forget-link,
+.register-link,
+.login-link {
+  color: #fff;
+  font-weight: bold;
+}
+.forget-link:hover,
+.register-link:hover,
+.login-link:hover {
+  color: #292525;
+}
+/* --------------------------------------
+5.SOCIAL ICON
+-------------------------------------- */
+.form-box .btn-social {
+  color: #fff;
+  border: 0;
+  margin-bottom: 10px;
+}
+.form-box .btn-facebook {
+  background: #4866a8;
+}
+.form-box .btn-google {
+  background: #da3f34;
+}
+.form-box .btn-twitter {
+  background: #33ccff;
+}
+/* --------------------------------------
+6.SOCIAL ICON HOVER
+-------------------------------------- */
+.form-box .btn-facebook:hover {
+  color: #fff;
+  background: #3d5785;
+}
+.form-box .btn-google:hover {
+  background: #bf3b31;
+  color: #fff;
+}
+.form-box .btn-twitter:hover {
+  background: #2eb7e5;
+  color: #fff;
+}

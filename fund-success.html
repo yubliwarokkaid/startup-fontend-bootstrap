@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fund Success</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <div class="success-page">
+      <div class="container">
+        <div class="row align-items-center row-success justify-content-center">
+          <div class="col-lg-4 text-center">
+            <img
+              src="/assets/images/funded-illustration.svg"
+              alt="fund-success"
+              class="w-100"
+            />
+            <h1 class="mt-4 mb-3">Yeay! You are super</h1>
+            <p class="mb-4">
+              Your money has ben transferred
+              <br />
+              into company's account
+            </p>
+            <div class="mb-4">
+              <div class="mb-3">
+                <button
+                  @click="$router.push({ path: '/' })"
+                  class="btn btn-fund-other btn-block"
+                >
+                  Fund Other Project
+                </button>
+              </div>
+              <form action="/dashboard/index.html">
+                <button class="btn btn-dashboard btn-block" type="submit">
+                  My Dashboard
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -4,91 +4,90 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Startup Frontend</title>
+
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="/">
-          <img src="/assets/images/logo-1.svg" alt="logo" class="w-100" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/project.html">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Success Stories</a>
-            </li>
-          </ul>
-          <div class="button-auth">
-            <a href="#" class="btn btn-register" type="submit">Sign Up</a>
-            <a href="#" class="btn btn-account" type="submit"> My Account </a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- End Header -->
-
-    <!-- BG Header -->
-    <div class="hero">
-      <video autoplay muted loop>
-        <source src="/assets/images/video-2.mp4" type="video/mp4" />
-      </video>
-      <div class="hero-overlay"></div>
-    </div>
-
-    <section class="page-hero">
-      <div class="container">
-        <div class="row d-flex justify-content-between align-items-center">
-          <div class="col-lg-6 mb-5 text-center text-md-center text-lg-left">
-            <h1 class="mb-2">
-              We helps <u class="hero-underline">startup</u> to
-            </h1>
-            <h1 class="mb-2">
-              getting started & <u class="hero-underline">funding</u>
-            </h1>
-            <h1 class="mb-4">their truly needs</h1>
-            <p class="mb-4 mt-2">
-              Fund the best idea to become <br />
-              a real product and be the contributor
-            </p>
-            <a href="#" class="btn btn-hero">Find a Project</a>
-          </div>
-          <div class="col-lg-6">
-            <div class="image-hero">
-              <img
-                src="/assets/images/hero-image.svg"
-                alt="imgage-hero"
-                class="w-100"
-              />
+    <!-- Page Content -->
+    <div class="page-content-home">
+      <!-- Header -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="/assets/images/logo-1.svg" alt="logo" class="w-100" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/project.html">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Success Stories</a>
+              </li>
+            </ul>
+            <div class="button-auth">
+              <a href="/register.html" class="btn btn-register">Sign Up</a>
+              <a href="/login.html" class="btn btn-account"> My Account </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- End BG Header -->
+      </nav>
+      <!-- End Header -->
 
-    <!-- Page Content -->
-    <div class="page-content-home">
+      <div class="hero">
+        <video autoplay muted loop>
+          <source src="/assets/images/video-2.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+
+      <section class="page-hero">
+        <div class="container">
+          <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-6 mb-5 text-center text-md-center text-lg-left">
+              <h1 class="hero-index mb-2">
+                We helps <u class="hero-underline">startup</u> to
+              </h1>
+              <h1 class="hero-index mb-2">
+                getting started & <u class="hero-underline">funding</u>
+              </h1>
+              <h1 class="hero-index mb-4">their truly needs</h1>
+              <p class="mb-4 mt-2">
+                Fund the best idea to become <br />
+                a real product and be the contributor
+              </p>
+              <a href="#" class="btn btn-hero">Find a Project</a>
+            </div>
+            <div class="col-lg-6">
+              <div class="image-hero">
+                <img
+                  src="/assets/images/hero-image.svg"
+                  alt="imgage-hero"
+                  class="w-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="page-step">
         <div class="container">
           <div class="row">
@@ -101,52 +100,6 @@
               <img src="/assets/images/on-progress.svg" alt="" class="w-100" />
             </div>
           </div>
-          <!-- <div class="row justify-content-center">
-            <div class="col-lg-9 d-none d-lg-block">
-              <div class="line-step">
-                <img
-                  src="/assets/images/step.svg"
-                  alt="line-step"
-                  class="w-100"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-around">
-            <div class="col-lg-2">
-              <div class="step-one">
-                <img
-                  src="/assets/images/step-1-illustration.svg"
-                  alt="step-one"
-                  class="w-100"
-                />
-                <h3>Sign Up</h3>
-                <p>Sign Up account and start funding project</p>
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="step-two">
-                <img
-                  src="/assets/images/step-2-illustration.svg"
-                  alt="step-one"
-                  class="w-100"
-                />
-                <h3>Open Project</h3>
-                <p>Choose some project idea, and start funding</p>
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="step-three">
-                <img
-                  src="/assets/images/step-3-illustration.svg"
-                  alt="step-one"
-                  class="w-100"
-                />
-                <h3>Execute</h3>
-                <p>Time to makes dream comes true</p>
-              </div>
-            </div>
-          </div> -->
         </div>
       </section>
 
@@ -166,201 +119,225 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4">
-              <div class="card card-project">
-                <div class="card-body">
+            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+              <div class="card card-project-home">
+                <div class="card-body body-project-home">
                   <img
-                    src="/assets/images/project-thumbnail-1.jpg"
+                    src="/assets/images/project-thumbnail-1.svg"
                     alt="thumb-1"
                     class="w-100"
                   />
-                  <h3 class="card-title">Robotic Hand</h3>
-                  <p class="card-text">
+                  <h3 class="project-title mt-3">Robotic Hand</h3>
+                  <p class="project-subtitle">
                     Creating robotic hand for better movement
                   </p>
-                  <div class="progress">
+
+                  <div class="progress mt-3">
                     <div
                       class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
-                      style="width: 20%"
                       aria-valuenow="20"
                       aria-valuemin="0"
                       aria-valuemax="100"
+                      style="width: 20%"
                     ></div>
                   </div>
                   <div
-                    class="progress-info d-flex justify-content-between mt-3"
+                    class="roject-text d-flex justify-content-between align-items-center mt-3"
                   >
-                    <div class="percent">20%</div>
-                    <div class="price">Rp 100.000.000</div>
+                    <p class="project-percent">20%</p>
+                    <p class="project-price text-dark">Rp 100.000.000</p>
                   </div>
-                  <button type="button" class="btn button-cta btn-block">
-                    Fund Now
-                  </button>
+                  <form action="/project.html" class="button-project">
+                    <button type="submit" class="btn btn-cta btn-block">
+                      Fund Now
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
-            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4">
-              <div class="card card-project">
-                <div class="card-body">
+            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+              <div class="card card-project-home">
+                <div class="card-body body-project-home">
                   <img
-                    src="/assets/images/project-thumbnail-2.jpg"
+                    src="/assets/images/project-thumbnail-2.svg"
                     alt="thumb-1"
                     class="w-100"
                   />
-                  <h3 class="card-title">Auto Pilot Drone</h3>
-                  <p class="card-text">
+                  <h3 class="project-title mt-3">Auto Pilot Drone</h3>
+                  <p class="project-subtitle">
                     Self driving drone, no worry to drive again
                   </p>
-                  <div class="progress">
+
+                  <div class="progress mt-3">
                     <div
                       class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
-                      style="width: 45%"
                       aria-valuenow="45"
                       aria-valuemin="0"
                       aria-valuemax="100"
+                      style="width: 45%"
                     ></div>
                   </div>
                   <div
-                    class="progress-info d-flex justify-content-between mt-3"
+                    class="roject-text d-flex justify-content-between align-items-center mt-3"
                   >
-                    <div class="percent">45%</div>
-                    <div class="price">Rp 80.000.000</div>
+                    <p class="project-percent">45%</p>
+                    <p class="project-price text-dark">Rp 80.000.000</p>
                   </div>
-                  <button type="button" class="btn button-cta btn-block">
-                    Fund Now
-                  </button>
+                  <form action="/project.html" class="button-project">
+                    <button type="submit" class="btn btn-cta btn-block">
+                      Fund Now
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
-            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4">
-              <div class="card card-project">
-                <div class="card-body">
+            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+              <div class="card card-project-home">
+                <div class="card-body body-project-home">
                   <img
-                    src="/assets/images/project-thumbnail-3.jpg"
+                    src="/assets/images/project-thumbnail-3.svg"
                     alt="thumb-1"
                     class="w-100"
                   />
-                  <h3 class="card-title">Wireboard</h3>
-                  <p class="card-text">The new era of mechanical keyboard</p>
-                  <div class="progress">
+                  <h3 class="project-title mt-3">Wireboard</h3>
+                  <p class="project-subtitle">
+                    The new era of mechanical keyboard
+                  </p>
+
+                  <div class="progress mt-3">
                     <div
                       class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
-                      style="width: 80%"
                       aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
+                      style="width: 80%"
                     ></div>
                   </div>
                   <div
-                    class="progress-info d-flex justify-content-between mt-3"
+                    class="roject-text d-flex justify-content-between align-items-center mt-3"
                   >
-                    <div class="percent">80%</div>
-                    <div class="price">Rp 40.000.000</div>
+                    <p class="project-percent">80%</p>
+                    <p class="project-price text-dark">Rp 40.000.000</p>
                   </div>
-                  <button type="button" class="btn button-cta btn-block">
-                    Fund Now
-                  </button>
+                  <form action="/project.html" class="button-project">
+                    <button type="submit" class="btn btn-cta btn-block">
+                      Fund Now
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
-            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4">
-              <div class="card card-project">
-                <div class="card-body">
+            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+              <div class="card card-project-home">
+                <div class="card-body body-project-home">
                   <img
-                    src="/assets/images/project-thumbnail-4.jpg"
+                    src="/assets/images/project-thumbnail-4.svg"
                     alt="thumb-1"
                     class="w-100"
                   />
-                  <h3 class="card-title">Wireless Earphone</h3>
-                  <p class="card-text">Just pair to phone and ready to set</p>
-                  <div class="progress">
+                  <h3 class="project-title mt-3">Wireless Earphone</h3>
+                  <p class="project-subtitle">
+                    Just pair to phone and ready to set
+                  </p>
+
+                  <div class="progress mt-3">
                     <div
                       class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
-                      style="width: 45%"
                       aria-valuenow="45"
                       aria-valuemin="0"
                       aria-valuemax="100"
+                      style="width: 45%"
                     ></div>
                   </div>
                   <div
-                    class="progress-info d-flex justify-content-between mt-3"
+                    class="roject-text d-flex justify-content-between align-items-center mt-3"
                   >
-                    <div class="percent">45%</div>
-                    <div class="price">Rp 55.000.000</div>
+                    <p class="project-percent">45%</p>
+                    <p class="project-price text-dark">Rp 55.000.000</p>
                   </div>
-                  <button type="button" class="btn button-cta btn-block">
-                    Fund Now
-                  </button>
+                  <form action="/project.html" class="button-project">
+                    <button type="submit" class="btn btn-cta btn-block">
+                      Fund Now
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
-            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4">
-              <div class="card card-project">
-                <div class="card-body">
+            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+              <div class="card card-project-home">
+                <div class="card-body body-project-home">
                   <img
-                    src="/assets/images/project-thumbnail-5.jpg"
+                    src="/assets/images/project-thumbnail-5.svg"
                     alt="thumb-1"
                     class="w-100"
                   />
-                  <h3 class="card-title">Auto Heater</h3>
-                  <p class="card-text">Make the room keep warm automatically</p>
-                  <div class="progress">
+                  <h3 class="project-title mt-3">Auto Heater</h3>
+                  <p class="project-subtitle">
+                    Make the room keep warm automatically
+                  </p>
+
+                  <div class="progress mt-3">
                     <div
                       class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
-                      style="width: 70%"
                       aria-valuenow="70"
                       aria-valuemin="0"
                       aria-valuemax="100"
+                      style="width: 70%"
                     ></div>
                   </div>
                   <div
-                    class="progress-info d-flex justify-content-between mt-3"
+                    class="roject-text d-flex justify-content-between align-items-center mt-3"
                   >
-                    <div class="percent">70%</div>
-                    <div class="price">Rp 45.000.000</div>
+                    <p class="project-percent">70%</p>
+                    <p class="project-price text-dark">Rp 75.000.000</p>
                   </div>
-                  <button type="button" class="btn button-cta btn-block">
-                    Fund Now
-                  </button>
+                  <form action="/project.html" class="button-project">
+                    <button type="submit" class="btn btn-cta btn-block">
+                      Fund Now
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
-            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4">
-              <div class="card card-project">
-                <div class="card-body">
+            <div class="col-xs col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+              <div class="card card-project-home">
+                <div class="card-body body-project-home">
                   <img
-                    src="/assets/images/project-thumbnail-6.jpg"
+                    src="/assets/images/project-thumbnail-6.svg"
                     alt="thumb-1"
                     class="w-100"
                   />
-                  <h3 class="card-title">Smart Lock</h3>
-                  <p class="card-text">
+                  <h3 class="project-title mt-3">Smart Lock</h3>
+                  <p class="project-subtitle">
                     Open the door with just one tap and click
                   </p>
-                  <div class="progress">
+
+                  <div class="progress mt-3">
                     <div
                       class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
-                      style="width: 10%"
-                      aria-valuenow="10"
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
+                      style="width: 80%"
                     ></div>
                   </div>
                   <div
-                    class="progress-info d-flex justify-content-between mt-3"
+                    class="roject-text d-flex justify-content-between align-items-center mt-3"
                   >
-                    <div class="percent">10%</div>
-                    <div class="price">Rp 35.000.000</div>
+                    <p class="project-percent">80%</p>
+                    <p class="project-price text-dark">Rp 40.000.000</p>
                   </div>
-                  <button type="button" class="btn button-cta btn-block">
-                    Fund Now
-                  </button>
+                  <form action="/project.html" class="button-project">
+                    <button type="submit" class="btn btn-cta btn-block">
+                      Fund Now
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -421,77 +398,76 @@
           </div>
         </div>
       </section>
-    </div>
-    <!-- End Page Content -->
-
-    <div class="footer-cta">
-      <section class="call-to-action">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-12">
-              <h1>
-                Easy way to funding
-                <br />
-                best idea and innovation
-              </h1>
-              <button class="btn btn-cta px-5 py-3">Getting Start</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <footer class="footer-startup">
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-lg-5 mb-5 text-center text-sm-center text-md-center text-lg-left"
-            >
-              <div class="logo-footer">
-                <img
-                  src="/assets/images/logo-footer.svg"
-                  alt="logo-footer"
-                  class="w-50"
-                />
-                <p>Helps people execute their <br />bright ideas</p>
+      <div class="footer-cta">
+        <section class="call-to-action">
+          <div class="container">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-12">
+                <h1>
+                  Easy way to funding
+                  <br />
+                  best idea and innovation
+                </h1>
+                <button class="btn btn-cta px-5 py-3">Getting Start</button>
               </div>
             </div>
-            <div
-              class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
-            >
-              <h5>Office</h5>
-              <ul class="list-unstyled">
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Equity System</a></li>
-                <li><a href="">Refund</a></li>
-                <li><a href="">Shareholder</a></li>
-              </ul>
-            </div>
-            <div
-              class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
-            >
-              <h5>Investor</h5>
-              <ul class="list-unstyled">
-                <li><a href="">My Account</a></li>
-                <li><a href="">Top Startups</a></li>
-                <li><a href="">How-to Tutorials</a></li>
-                <li><a href="">Withdraw</a></li>
-              </ul>
-            </div>
-            <div
-              class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
-            >
-              <h5>Explore</h5>
-              <ul class="list-unstyled">
-                <li>+021 2208 1996</li>
-                <li>KBP, Bandung</li>
-                <li>No.12 (Backer)</li>
-                <li><a href="">support@backer.id</a></li>
-              </ul>
+          </div>
+        </section>
+
+        <footer class="footer-startup">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-lg-5 mb-5 text-center text-sm-center text-md-center text-lg-left"
+              >
+                <div class="logo-footer">
+                  <img
+                    src="/assets/images/logo-footer.svg"
+                    alt="logo-footer"
+                    class="w-50"
+                  />
+                  <p>Helps people execute their <br />bright ideas</p>
+                </div>
+              </div>
+              <div
+                class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
+              >
+                <h5>Office</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">Equity System</a></li>
+                  <li><a href="">Refund</a></li>
+                  <li><a href="">Shareholder</a></li>
+                </ul>
+              </div>
+              <div
+                class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
+              >
+                <h5>Investor</h5>
+                <ul class="list-unstyled">
+                  <li><a href="">My Account</a></li>
+                  <li><a href="">Top Startups</a></li>
+                  <li><a href="">How-to Tutorials</a></li>
+                  <li><a href="">Withdraw</a></li>
+                </ul>
+              </div>
+              <div
+                class="col-xs col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-5 text-center text-sm-center text-md-center text-lg-left"
+              >
+                <h5>Explore</h5>
+                <ul class="list-unstyled">
+                  <li>+021 2208 1996</li>
+                  <li>KBP, Bandung</li>
+                  <li>No.12 (Backer)</li>
+                  <li><a href="">support@backer.id</a></li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
+    <!-- End Page Content -->
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
   </body>
